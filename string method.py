@@ -1,0 +1,11 @@
+text = input("Enter a string: ")
+
+print("Original string:", text)
+print("Length:", len(text))
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+print("Capitalized:", text.capitalize())
+print("Is it a digit?:", text.isdigit())
+print("Is it alphabet?:", text.isalpha())
+print("Number of 'a':", text.count("a"))
+print("After replacing 'a' with 'A':", text.replace("a", "A"))
